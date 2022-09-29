@@ -338,6 +338,10 @@ body {
 .mbl-nav .balence {
 	padding: 0 3rem;
 	color: var(--color-white);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .mbl-nav .balence p {
 	color: var(--color-white);
