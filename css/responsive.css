@@ -11,8 +11,11 @@
 		transform: translateX(-100%);
 	}
 	.dashboard-wrapper {
-		width: 100%;
 		padding-bottom: 5rem;
+	}
+
+	.dashboardNMblNav {
+		width: 100%;
 	}
 	/* h1.heading {
 		font-size: 5.7rem;
