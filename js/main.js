@@ -1,4 +1,4 @@
-const sidebarOpenBtn = document.querySelector('.btn-plus');
+const sidebarOpenBtn = document.querySelector('.btn-bar');
 const dashboard = document.querySelector('.dashboard');
 
 sidebarOpenBtn.addEventListener('click', () => {

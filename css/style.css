@@ -105,6 +105,11 @@ body {
 	transition: all 0.5s;
 }
 
+.logo h2 {
+	color: var(--color-black);
+	text-transform: uppercase;
+}
+
 .sidebar-list {
 	padding: 0;
 }
@@ -142,11 +147,14 @@ body {
 /* dashboard wrapper */
 
 .dashboard-wrapper {
-	width: calc(100vw - 300px);
+	padding: 3rem 0;
+}
+
+.mblNavNDashboard {
+	width: calc(100vw - 316px);
 	position: absolute;
 	top: 0;
 	right: 0;
-	padding: 3rem 0;
 	transition: all 0.5s;
 }
 
@@ -312,7 +320,7 @@ body {
 .show-sidebar .sidebar {
 	transform: translateX(-100%);
 }
-.show-sidebar .dashboard-wrapper {
+.show-sidebar .mblNavNDashboard {
 	width: 100%;
 }
 
@@ -332,11 +340,19 @@ body {
 	top: 2rem;
 	right: 3rem;
 }
-.mbl-nav .btn-plus .icon {
+.mbl-nav .btn-bar {
+	background-color: transparent;
+	position: absolute;
+	top: 2rem;
+	left: 3rem;
+}
+.mbl-nav .btn-plus .icon,
+.mbl-nav .btn-bar .icon {
 	fill: var(--color-white);
 }
 .mbl-nav .balence {
 	padding: 0 3rem;
+	/* padding-top: 3rem; */
 	color: var(--color-white);
 	display: flex;
 	flex-direction: column;
@@ -352,6 +368,17 @@ body {
 .mbl-nav .balence-total span {
 	font-size: 1.6rem;
 	color: var(--color-white);
+}
+
+.mbl-nav .logo {
+	position: absolute;
+	top: 4rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.mbl-nav .logo h2 {
+	text-transform: uppercase;
+	color: #fff;
 }
 
 .cards {

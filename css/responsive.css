@@ -11,33 +11,16 @@
 		transform: translateX(-100%);
 	}
 	.dashboard-wrapper {
-		width: 100%;
 		padding-bottom: 5rem;
+	}
+
+	.mblNavNDashboard {
+		width: 100%;
 	}
 
 	.mbl-nav .balence {
 		align-items: flex-start;
 	}
-
-	/* h1.heading {
-		font-size: 5.7rem;
-	}
-
-	h2.heading {
-		font-size: 4.6rem;
-	}
-
-	h3.heading {
-		font-size: 3.2rem;
-	}
-
-	h5.heading {
-		font-size: 2.4rem;
-	}
-
-	.text {
-		font-size: 1.6rem;
-	} */
 }
 
 /* max width 768px */
@@ -57,25 +40,6 @@
 
 /* max width 480px */
 @media only screen and (max-width: 30em) {
-	/* h1.heading {
-		font-size: 4.5rem;
-	}
-
-	h2.heading {
-		font-size: 4rem;
-	}
-
-	h3.heading {
-		font-size: 2.6rem;
-	}
-
-	h5.heading {
-		font-size: 2.2rem;
-	}
-
-	.text {
-		font-size: 1.4rem;
-	} */
 }
 
 /* max width 380px */
