@@ -478,11 +478,23 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* gap: 1rem; */
+	gap: 0.5rem;
 }
 .mbl-bottom-nav .nav-link .icon {
 	height: 2.2rem;
 	width: 2.2rem;
+	transition: all 0.3s;
 }
 .mbl-bottom-nav .nav-link .text {
+	font-size: 1.8rem;
+	transition: all 0.3s;
+}
+
+.mbl-bottom-nav .nav-link:hover .icon,
+.mbl-bottom-nav .active .icon {
+	fill: #f3635b;
+}
+.mbl-bottom-nav .nav-link:hover .text,
+.mbl-bottom-nav .active .text {
+	color: #f3635b;
 }
