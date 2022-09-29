@@ -451,6 +451,13 @@ body {
 /* mobile bottom nav */
 /* ===========================*/
 
+:root {
+	--swiper-navigation-size: 18px;
+}
+:root {
+	--swiper-theme-color: #000;
+}
+
 .mbl-bottom-nav {
 	position: fixed;
 	bottom: 0;
@@ -461,13 +468,21 @@ body {
 	padding: 2rem;
 }
 
-.mbl-bottom-nav .swiper-wrapper {
+.mbl-bottom-nav .swiper-wrapper .swiper-btn {
+	height: 2rem;
+	width: 2rem;
 }
 .mbl-bottom-nav .swiper-slide {
 }
 .mbl-bottom-nav .nav-link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* gap: 1rem; */
 }
 .mbl-bottom-nav .nav-link .icon {
+	height: 2.2rem;
+	width: 2.2rem;
 }
 .mbl-bottom-nav .nav-link .text {
 }
